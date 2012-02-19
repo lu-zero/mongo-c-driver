@@ -1,0 +1,8 @@
+libdir=@abs_top_builddir@/.libs
+includedir=@abs_top_srcdir@
+
+Name: MongoDB
+Description: MongoDB C Driver
+Version: @VERSION@
+Libs: -L${libdir} -lmongoc
+Cflags: -I${includedir}
